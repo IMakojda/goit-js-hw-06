@@ -12,7 +12,7 @@ let inputLength=0;
 
     input.addEventListener("blur", () => {
     
-    if ( inputLength < dataValue ){
+    if ( inputLength < dataValue || dataValue<inputLength ){
         input.classList.add("invalid");
         } 
 
